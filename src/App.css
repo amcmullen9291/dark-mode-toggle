@@ -4,13 +4,27 @@
     margin-top: 10%;
     margin-bottom: 10%;
     border: 2px solid #000000;
-    padding: 5%;
 }
 
 #outerBox{
     border: 2px solid black;
     margin:2%;
 }
+
+#innerBox-dark{
+    margin: 15%;
+    margin-right: 15%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border: 2px solid #FF9933;
+}
+
+#outerBox-dark{
+    border: 2px solid #f7c08a;
+    margin:2%;
+}
+
+
 
 * {
     box-sizing: border-box;
@@ -121,7 +135,7 @@
     background-color: #f90;
     color: #fff;
   }
-  
+
   .slider.round:before {
     border-radius: 50%;
   }
